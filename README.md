@@ -19,7 +19,7 @@ A modern, responsive, and SEO-optimized **Next.js 14 portfolio** designed for de
 
 ## 🚀 Demo
 
-View the live demo at [https://portfolio-adesh.vercel.app](https://portfolio-adesh.vercel.app)
+View the live demo at [https://portfolio-adesh-sharma.vercel.app](https://portfolio-adesh-sharma.vercel.app)
 
 ## 🛠️ Tech Stack
 

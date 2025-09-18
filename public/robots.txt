@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://portfolio-adesh.vercel.app/sitemap.xml 
+Sitemap: https://portfolio-adesh-sharma.vercel.app/sitemap.xml 

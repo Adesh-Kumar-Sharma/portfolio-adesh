@@ -4,11 +4,11 @@ export const siteConfig = {
   username: "Adesh-Kumar-Sharma",
   description:
     "Adesh Kumar Sharma's portfolio - A modern, responsive Next.js portfolio for developers. This open-source template can be customized to showcase your own skills, projects, and professional experience.",
-  url: "https://portfolio-adesh.vercel.app",
+  url: "https://portfolio-adesh-sharma.vercel.app",
   links: {
     github: "https://github.com/Adesh-Kumar-Sharma",
   },
-  ogImage: "https://portfolio-adesh.vercel.app/profile-img.jpg",
+  ogImage: "https://portfolio-adesh-sharma.vercel.app/profile-img.jpg",
   iconIco:
     "https://res.cloudinary.com/dowwkeqlx/image/upload/v1758174052/adesh-favicon.ico",
   logoIcon:
