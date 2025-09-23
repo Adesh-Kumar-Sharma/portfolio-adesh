@@ -5,7 +5,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: "Adesh Kumar Sharma Portfolio",
     short_name: "Adesh's Portfolio",
     description:
-      "Adesh Kumar Sharma's modern developer portfolio built with Next.js - available as an open-source template",
+      "Adesh Kumar Sharma's modern developer portfolio built with Next.js",
     start_url: "/",
     display: "standalone",
     background_color: "#ffffff",
@@ -25,7 +25,6 @@ export default function manifest(): MetadataRoute.Manifest {
     ],
     categories: [
       "portfolio",
-      "template",
       "development",
       "nextjs",
       "react",

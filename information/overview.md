@@ -60,7 +60,7 @@ The website's main navigation menu is accessible from all pages and includes the
 **Sections:**
 
 - **Contact Form**: Fields for name, email, message, and optional social links.
-- **GitHub Link**: Provides a link to the source code of the website's template.
+- **GitHub Link**: Provides a link to the source code of the website.
 
 ---
 

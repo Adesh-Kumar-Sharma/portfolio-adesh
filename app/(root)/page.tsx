@@ -20,8 +20,8 @@ import { cn } from "@/lib/utils";
 import profileImg from "@/public/profile-img.jpg";
 
 export const metadata: Metadata = {
-  title: `${pagesConfig.home.metadata.title} | Modern Next.js Developer Portfolio Template`,
-  description: `${pagesConfig.home.metadata.description} This open-source Next.js portfolio template is customizable to showcase your skills and projects.`,
+  title: `${pagesConfig.home.metadata.title} | Modern Next.js Developer Portfolio Website`,
+  description: `${pagesConfig.home.metadata.description} This is a portfolio website to showcase skills and projects of Adesh Kumar Sharma.`,
   alternates: {
     canonical: siteConfig.url,
   },
@@ -39,11 +39,11 @@ export default function IndexPage() {
     sameAs: [siteConfig.links.github],
   };
 
-  // Structured data for website as a software application (template)
+  // Structured data for website as a software application
   const softwareSchema = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    name: "Next.js Portfolio Template",
+    name: "Next.js Portfolio Website",
     applicationCategory: "DeveloperApplication",
     operatingSystem: "Web",
     offers: {
