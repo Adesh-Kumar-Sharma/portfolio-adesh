@@ -12,7 +12,7 @@ The website's main navigation menu is accessible from all pages and includes the
 2. **Skills**: [https://portfolio-adesh-sharma.vercel.app/skills](https://portfolio-adesh-sharma.vercel.app/skills)
 3. **Projects**: [https://portfolio-adesh-sharma.vercel.app/projects](https://portfolio-adesh-sharma.vercel.app/projects)
 4. **Experience**: [https://portfolio-adesh-sharma.vercel.app/experience](https://portfolio-adesh-sharma.vercel.app/experience)
-5. **Contact**: [https://portfolio-adesh-sharma.vercel.app/contact](https://portfolio-adesh-sharma.vercel.app/contact)
+5. **Education**: [https://portfolio-adesh-sharma.vercel.app/education](https://portfolio-adesh-sharma.vercel.app/education)
 
 ---
 
@@ -53,14 +53,9 @@ The website's main navigation menu is accessible from all pages and includes the
 
 - **Professional Experience**: Details work experience with company information, roles, and achievements.
 
-### 5. Contact
+### 5. Education
 
-**URL:** [https://portfolio-adesh-sharma.vercel.app/contact](https://portfolio-adesh-sharma.vercel.app/contact)
-
-**Sections:**
-
-- **Contact Form**: Fields for name, email, message, and optional social links.
-- **GitHub Link**: Provides a link to the source code of the website.
+**URL:** [https://portfolio-adesh-sharma.vercel.app/education](https://portfolio-adesh-sharma.vercel.app/education)
 
 ---
 

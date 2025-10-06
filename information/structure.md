@@ -1,12 +1,9 @@
-This is the folder structure of the whole application
+# This is the folder structure of the whole application
 
 .
 ├── README.md
 ├── app
 │ ├── (root)
-│ │ ├── contact
-│ │ │ └── page.tsx
-│ │ │ └── page.tsx
 │ │ ├── experience
 │ │ │ ├── [expId]
 │ │ │ │ └── page.tsx
@@ -17,13 +14,10 @@ This is the folder structure of the whole application
 │ │ │ ├── [projectId]
 │ │ │ │ └── page.tsx
 │ │ │ └── page.tsx
-│ │ ├── resume
+│ │ ├── cv
 │ │ │ └── page.tsx
 │ │ └── skills
 │ │ └── page.tsx
-│ ├── api
-│ │ └── contact
-│ │ └── route.ts
 │ ├── favicon.ico
 │ ├── globals.css
 │ ├── layout.tsx
@@ -47,16 +41,12 @@ This is the folder structure of the whole application
 │ │ ├── page-header.tsx
 │ │ ├── site-footer.tsx
 │ │ └── theme-provider.tsx
-│ ├── contact
-│ │ └── github-redirect-card.tsx
 │ ├── experience
 │ │ ├── experience-card.tsx
 │ │ └── timeline.tsx
 │ ├── projects
 │ │ ├── exp-description.tsx
 │ │ └── project-card.tsx
-│ ├── forms
-│ │ └── contact-form.tsx
 │ ├── modals
 │ │ └── custom-modal.tsx
 │ ├── skills

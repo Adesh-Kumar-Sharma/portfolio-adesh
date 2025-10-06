@@ -1,6 +1,4 @@
-import { ValidSkills } from "./constants";
-
-export interface ExperienceInterface {
+export interface EducationInterface {
   id: string;
   position: string;
   company: string;
@@ -9,17 +7,16 @@ export interface ExperienceInterface {
   endDate: Date | "Present";
   description: string[];
   achievements: string[];
-  skills: ValidSkills[];
   companyUrl?: string;
   logo?: string;
 }
 
-export const experiences: ExperienceInterface[] = [
+export const educations: EducationInterface[] = [
   {
-    id: "osl",
-    position: "Software Development Trainee",
-    company: "OpenSense Labs",
-    location: "Bhopal, India",
+    id: "jec",
+    position: "B. Tech. (Electrical Engineering)",
+    company: "Jabalpur Engineering College",
+    location: "Jabalpur, India",
     startDate: new Date("2023-10-01"),
     endDate: new Date("2024-03-01"),
     description: [
@@ -33,15 +30,14 @@ export const experiences: ExperienceInterface[] = [
       "Deployed ML models on AWS SageMaker instead of Replicate, cutting load times by 30%.",
       "Created a Next.js dashboard for user analytics.",
     ],
-    skills: ["Next.js", "React", "Node.js", "AWS", "MongoDB", "Typescript"],
-    companyUrl: "https://opensenselabs.com",
-    logo: "/experience/osl-logo.png",
+    companyUrl: "https://www.jecjabalpur.ac.in/index.aspx",
+    logo: "/education/jec.png",
   },
   {
-    id: "osl",
-    position: "Associate Software Developer",
-    company: "OpenSense Labs",
-    location: "Bhopal, India",
+    id: "joseph",
+    position: "Higher Secondary Certificate",
+    company: "St. Joseph's Public School",
+    location: "Ranpur, Kota, India",
     startDate: new Date("2022-12-13"),
     endDate: new Date("2025-03-31"),
     description: [
@@ -54,15 +50,27 @@ export const experiences: ExperienceInterface[] = [
       "Set up AWS servers and CI/CD pipelines, scaling traffic to 3,000+ users/day.",
       "Built a multi-page PDF reader for large files (>300MB) to boost user engagement.",
     ],
-    skills: [
-      "React",
-      "GraphQL",
-      "AWS",
-      "HTML 5",
-      "CSS 3",
-      "Javascript",
+    companyUrl: "https://edredo.com",
+    logo: "/education/joseph.png",
+  },
+  {
+    id: "gabriel",
+    position: "Senior Secondary Certificate",
+    company: "St. Gabriel's Senior Secondary School",
+    location: "Jabalpur, India",
+    startDate: new Date("2022-12-13"),
+    endDate: new Date("2025-03-31"),
+    description: [
+      "Developed websites using React, Angular, and GraphQL.",
+      "Set up AWS servers and CI/CD pipelines.",
+      "Built a multi-page PDF reader for large files (>300MB).",
     ],
-    companyUrl: "https://opensenselabs.com",
-    logo: "/experience/osl-logo.png",
+    achievements: [
+      "Developed websites using React, Angular, and GraphQL; reduced API load time by 30%.",
+      "Set up AWS servers and CI/CD pipelines, scaling traffic to 3,000+ users/day.",
+      "Built a multi-page PDF reader for large files (>300MB) to boost user engagement.",
+    ],
+    companyUrl: "https://edredo.com",
+    logo: "/education/gabriel.png",
   },
 ];

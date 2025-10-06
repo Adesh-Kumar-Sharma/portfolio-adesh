@@ -103,7 +103,7 @@ export const Projects: ProjectInterface[] = [
     id: "the-super-quotes",
     companyName: "The Super Quotes",
     type: "Professional",
-    category: ["Mobile Dev", "Full Stack", "UI/UX"],
+    category: ["Full Stack", "UI/UX"],
     shortDescription:
       "Elevated The Super Quotes app with JavaScript, APIs, Redux magic, and Google Play Store debut.",
     websiteLink:
@@ -169,7 +169,7 @@ export const Projects: ProjectInterface[] = [
     id: "apex-shopping",
     companyName: "Apex Shopping App",
     type: "Personal",
-    category: ["Mobile Dev", "Full Stack", "UI/UX"],
+    category: ["Full Stack", "UI/UX"],
     shortDescription:
       "Developed a feature-rich mobile shopping application with admin panel, user authentication, and seamless product management using Firebase.",
     githubLink: "https://github.com/Adesh-Kumar-Sharma/apex-shopping-app",
@@ -233,7 +233,7 @@ export const Projects: ProjectInterface[] = [
     id: "apex-shopping",
     companyName: "Apex Shopping App",
     type: "Personal",
-    category: ["Mobile Dev", "Full Stack", "UI/UX"],
+    category: ["Full Stack", "UI/UX"],
     shortDescription:
       "Developed a feature-rich mobile shopping application with admin panel, user authentication, and seamless product management using Firebase.",
     githubLink: "https://github.com/Adesh-Kumar-Sharma/apex-shopping-app",

@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: "Adesh Kumar Sharma | Developer Portfolio",
+  name: "Adesh Kumar Sharma | Developer Portfolio | Modern Next.js Developer Portfolio Website",
   authorName: "Adesh Kumar Sharma",
   username: "Adesh-Kumar-Sharma",
   description:

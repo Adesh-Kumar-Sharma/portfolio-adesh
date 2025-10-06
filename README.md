@@ -1,11 +1,14 @@
 # Adesh Kumar Sharma - Portfolio
 
-A modern and responsive **Next.js 14 portfolio** to showcase my skills, education, experience, and projects with an elegant interface that stands out. Built with server-side rendering, TypeScript, and the latest web standards for optimal performance.
+A modern and responsive **Next.js 14 portfolio** to showcase my skills, education, experience, projects and CV/résumé with an elegant interface that stands out. Built with server-side rendering, TypeScript, and the latest web standards for optimal performance.
 
 ## ✨ Key Features
 
 - **Professional Experience Timeline**: Showcases my career journey with a visually appealing timeline
 - **Project Showcase**: Displays my technical projects with detailed information and live demos
+- **Educational Timeline**: Displays my educational background in a clear timeline format
+- **Skills Showcase**: Highlights my technical skills
+- **CV**: Displays my CV/résumé with a download option
 - **Dark/Light Mode**: Professional appearance with theme support
 - **Responsive Design**: Optimized for all devices (mobile, tablet, desktop)
 - **Modern Tech Stack**: Next.js 14, TypeScript, Tailwind CSS, and shadcn/ui
@@ -37,7 +40,8 @@ The portfolio is designed to be easily customizable:
 2. **Skills**: To add my skills in `config/skills.ts`
 3. **Projects**:To add my technical projects in `config/projects.ts`
 4. **Experience**: To customize my professional experience in `config/experience.ts`
-5. **Colors & Theme**: To modify the theme in `tailwind.config.js`
+5. **Education**: To customize my educational background in `config/education.ts`
+6. **Colors & Theme**: To modify the theme in `tailwind.config.js`
 
 ## 🌟 Features In Detail
 
@@ -47,11 +51,19 @@ An interactive, animated timeline that showcases my career journey with expandab
 
 ### Project Showcase
 
-Display my technical projects with detailed information, technologies used, live demo links, and comprehensive project descriptions.
+Displays my technical projects with detailed information, technologies used, live demo links, and comprehensive project descriptions.
+
+### Education Description
+
+Describes my educational background with details about degrees, institutions, and graduation years.
 
 ### Skills Showcase
 
 Visually represent my technical and soft skills with customizable ratings and categories.
+
+### CV
+
+Displays my CV/résumé with a download option.
 
 ## 🙏 Acknowledgements
 

@@ -9,9 +9,11 @@ import { ClientPageWrapper } from "@/components/common/client-page-wrapper";
 import { Icons } from "@/components/common/icons";
 import ExperienceCard from "@/components/experience/experience-card";
 import ProjectCard from "@/components/projects/project-card";
+import EducationCard from "@/components/education/education-card";
 import SkillsCard from "@/components/skills/skills-card";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { experiences } from "@/config/experience";
+import { educations } from "@/config/education";
 import { pagesConfig } from "@/config/pages";
 import { featuredProjects } from "@/config/projects";
 import { siteConfig } from "@/config/site";
@@ -20,7 +22,7 @@ import { cn } from "@/lib/utils";
 import profileImg from "@/public/profile-img.jpg";
 
 export const metadata: Metadata = {
-  title: `${pagesConfig.home.metadata.title} | Modern Next.js Developer Portfolio Website`,
+  title: `${pagesConfig.home.metadata.title}`,
   description: `${pagesConfig.home.metadata.description} This is a portfolio website to showcase skills and projects of Adesh Kumar Sharma.`,
   alternates: {
     canonical: siteConfig.url,
@@ -234,6 +236,45 @@ export default function IndexPage() {
         </div>
         <AnimatedText delay={0.4} className="flex justify-center">
           <Link href="/experience">
+            <Button variant={"outline"} className="rounded-xl">
+              <Icons.chevronDown className="mr-2 h-4 w-4" /> View All
+            </Button>
+          </Link>
+        </AnimatedText>
+      </AnimatedSection>
+      <AnimatedSection
+        direction="left"
+        className="container space-y-6 py-10 my-14"
+        id="education"
+      >
+        <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
+          <AnimatedText
+            as="h2"
+            className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl"
+          >
+            {pagesConfig.education.title}
+          </AnimatedText>
+          <AnimatedText
+            as="p"
+            delay={0.2}
+            className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7"
+          >
+            {pagesConfig.education.description}
+          </AnimatedText>
+        </div>
+        <div className="mx-auto grid justify-center gap-4 md:w-full lg:grid-cols-3">
+          {educations.slice(0, 3).map((education, index) => (
+            <AnimatedSection
+              key={education.id}
+              delay={0.1 * (index + 1)}
+              direction="up"
+            >
+              <EducationCard education={education} />
+            </AnimatedSection>
+          ))}
+        </div>
+        <AnimatedText delay={0.4} className="flex justify-center">
+          <Link href="/education">
             <Button variant={"outline"} className="rounded-xl">
               <Icons.chevronDown className="mr-2 h-4 w-4" /> View All
             </Button>

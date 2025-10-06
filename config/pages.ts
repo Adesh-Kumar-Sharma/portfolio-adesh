@@ -38,20 +38,20 @@ export const pagesConfig: PagesConfig = {
       description: "Adesh Kumar Sharma's projects in building web applications.",
     },
   },
-  contact: {
-    title: "Contact",
-    description: "Let's connect and explore collaborations.",
+  education: {
+    title: "Education",
+    description: "My educational background.",
     metadata: {
-      title: "Contact",
-      description: "Contact Adesh Kumar Sharma.",
+      title: "Education",
+      description: "Adesh Kumar Sharma's educational background.",
     },
   },
-  resume: {
-    title: "Resume",
-    description: "Adesh Kumar Sharma's resume.",
+  cv: {
+    title: "CV/résumé",
+    description: "Adesh Kumar Sharma's CV/résumé.",
     metadata: {
-      title: "Resume",
-      description: "Adesh Kumar Sharma's resume.",
+      title: "CV/résumé",
+      description: "Adesh Kumar Sharma's CV/résumé.",
     },
   },
   experience: {

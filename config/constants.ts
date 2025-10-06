@@ -26,7 +26,6 @@ export type ValidSkills =
   | "Git"
   | "CI/CD"
   | "Jenkins"
-  | "FastAPI"
   | "Django"
   | "Sass"
   | "Firebase"
@@ -38,7 +37,6 @@ export type ValidSkills =
   | "Laravel"
   | "PHP"
   | "Flask"
-  | "Django"
   | "FastAPI"
   | "SQL"
   | "NoSQL"
@@ -49,9 +47,7 @@ export type ValidCategory =
   | "Frontend"
   | "Backend"
   | "UI/UX"
-  | "Web Dev"
-  | "Mobile Dev"
-  | "3D Modeling";
+  | "Web Dev";
 
 export type ValidExpType = "Personal" | "Professional";
 
@@ -60,5 +56,5 @@ export type ValidPages =
   | "skills"
   | "projects"
   | "experience"
-  | "contact"
-  | "resume";
+  | "education"
+  | "cv";
