@@ -100,10 +100,6 @@ const Timeline: React.FC<TimelineProps> = ({ educations }) => {
                 className="rounded-lg w-full sm:w-auto"
                 asChild
               >
-                <Link href={`/education/${education.id}`}>
-                  View Details
-                  <Icons.chevronRight className="ml-2 h-4 w-4" />
-                </Link>
               </Button>
             </div>
           </div>

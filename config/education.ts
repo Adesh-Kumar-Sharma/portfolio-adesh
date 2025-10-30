@@ -19,7 +19,7 @@ export const educations: EducationInterface[] = [
     startDate: new Date("2018-09-01"),
     endDate: new Date("2022-06-01"),
     description: [
-      "Achieved my Bachelor of Technology degree in Electrical Engineering. Passed in First Division with Distinction, CGPA: 7.71/10, Credits: 170 (ECTS: 255)"
+      "Achieved 7.71/10 CGPA in Electrical Engineering. Passed First Division with Distinction. Credits: 170 (ECTS: 255)"
     ],
     companyUrl: "https://www.jecjabalpur.ac.in/index.aspx",
     logo: "/education/jec.png",

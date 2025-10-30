@@ -83,7 +83,7 @@ const EducationCard: React.FC<EducationCardProps> = ({ education }) => {
           className="rounded-lg w-full sm:w-auto"
           asChild
         >
-          <Link href={`/education/${education.id}`}>
+          <Link href={`/education`}>
             View Details
             <Icons.chevronRight className="ml-2 h-4 w-4" />
           </Link>
