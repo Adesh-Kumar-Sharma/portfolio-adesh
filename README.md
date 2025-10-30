@@ -2,6 +2,25 @@
 
 A modern and responsive **Next.js 14 portfolio** to showcase my skills, education, experience, projects and CV/résumé with an elegant interface that stands out. Built with server-side rendering, TypeScript, and the latest web standards for optimal performance.
 
+---
+
+## 🚀 Demo
+
+View the live demo at [https://portfolio-adesh-sharma.vercel.app](https://portfolio-adesh-sharma.vercel.app)
+
+---
+
+## 📋 Table of Contents
+
+- [Key Features](#-key-features)
+- [Tech Stack](#%EF%B8%8F-tech-stack)
+- [Customization](#-customization)
+- [Features In Detail](#-features-in-detail)
+- [Acknowledgements](#-acknowledgements)
+- [Deployed on Vercel](#-deployed-on-vercel)
+
+---
+
 ## ✨ Key Features
 
 - **Professional Experience Timeline**: Showcases my career journey with a visually appealing timeline
@@ -15,9 +34,7 @@ A modern and responsive **Next.js 14 portfolio** to showcase my skills, educatio
 - **Easy Customization**: Well-organized code structure for easy updates
 - **Animations**: Subtle animations for engaging user experience
 
-## 🚀 Demo
-
-View the live demo at [https://portfolio-adesh-sharma.vercel.app](https://portfolio-adesh-sharma.vercel.app)
+---
 
 ## 🛠️ Tech Stack
 
@@ -32,6 +49,8 @@ View the live demo at [https://portfolio-adesh-sharma.vercel.app](https://portfo
 - **State Management**: React Context API
 - **Linting & Formatting**: ESLint, Prettier
 
+---
+
 ## 🎨 Customization
 
 The portfolio is designed to be easily customizable:
@@ -43,31 +62,37 @@ The portfolio is designed to be easily customizable:
 5. **Education**: To customize my educational background in `config/education.ts`
 6. **Colors & Theme**: To modify the theme in `tailwind.config.js`
 
+---
+
 ## 🌟 Features In Detail
 
-### Professional Experience Timeline
+### 1. Professional Experience Timeline
 
 An interactive, animated timeline that showcases my career journey with expandable sections for details about each position and company.
 
-### Project Showcase
+### 2. Project Showcase
 
 Displays my technical projects with detailed information, technologies used, live demo links, and comprehensive project descriptions.
 
-### Education Description
+### 3. Education Description
 
 Describes my educational background with details about degrees, institutions, and graduation years.
 
-### Skills Showcase
+### 4. Skills Showcase
 
 Visually represent my technical and soft skills with customizable ratings and categories.
 
-### CV
+### 5. CV
 
 Displays my CV/résumé with a download option.
+
+---
 
 ## 🙏 Acknowledgements
 
 - Icons from [Lucide](https://lucide.dev/)
+
+---
 
 ## 💻 Deployed on Vercel
 
@@ -78,3 +103,5 @@ Displays my CV/résumé with a download option.
 ---
 
 **Built with ❤️ by Adesh Kumar Sharma -> [GitHub](https://github.com/Adesh-Kumar-Sharma)🔗, [LinkedIn](https://www.linkedin.com/in/adesh-kumar-sharma-jbp)🔗**
+
+---
