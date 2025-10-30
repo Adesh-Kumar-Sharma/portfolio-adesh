@@ -12,6 +12,17 @@ import { siteConfig } from "@/config/site";
 import { cn, formatDateFromObj } from "@/lib/utils";
 import profileImg from "@/public/profile-img.jpg";
 
+interface MediaItem {
+  type: "image" | "video";
+  src: string;
+}
+
+interface PageInfo {
+  title: string;
+  description: string;
+  mediaArr: MediaItem[];
+}
+
 interface ProjectPageProps {
   params: {
     projectId: string;
@@ -126,17 +137,27 @@ export default function Project({ params }: ProjectPageProps) {
             </h3>
             <div>
               <p>{page.description}</p>
-              {page.imgArr.map((img, ind) => (
-                <Image
-                  src={img}
-                  key={ind}
-                  alt={img}
-                  width={720}
-                  height={405}
-                  className="my-4 rounded-md border bg-muted transition-colors"
-                  priority
-                />
-              ))}
+              {page.mediaArr
+                .filter((media): media is MediaItem => typeof media === "object" && media !== null && "type" in media && "src" in media)
+                .map((media, ind) =>
+                  media.type === "image" ? (
+                    <img
+                      key={ind}
+                      src={media.src}
+                      alt={page.title}
+                      className="rounded-lg border object-cover"
+                    />
+                  ) : (
+                    <iframe
+                      key={ind}
+                      src={media.src}
+                      title={page.title}
+                      className="w-full h-64 rounded-lg border"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    ></iframe>
+                  )
+                )}
             </div>
           </div>
         ))}

@@ -107,13 +107,6 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: Icons.css3,
   },
   {
-    name: "Angular",
-    description:
-      "Build dynamic web apps with a TypeScript-based open-source framework by Google.",
-    rating: 3,
-    icon: Icons.angular,
-  },
-  {
     name: "Redux",
     description:
       "Manage app state effectively using a predictable and centralized state container.",
@@ -135,11 +128,95 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: Icons.tailwindcss,
   },
   {
-    name: "AWS",
+    name: "Azure",
     description:
-      "Utilize Amazon Web Services to build and deploy scalable, reliable, and secure applications.",
+      "Utilize Microsoft Azure to build and deploy scalable, reliable, and secure applications.",
     rating: 3,
-    icon: Icons.amazonaws,
+    icon: Icons.azure,
+  },
+  {
+    name: "Stripe",
+    description:
+      "Integrate Stripe to handle online payments securely and efficiently.",
+    rating: 5,
+    icon: Icons.stripe,
+  },
+  {
+    name: "Razorpay",
+    description:
+      "Integrate Razorpay to facilitate seamless online payment processing.",
+    rating: 5,
+    icon: Icons.razorpay,
+  },
+  {
+    name: "JIRA",
+    description:
+      "Streamline project management and issue tracking with JIRA's robust tools.",
+    rating: 5,
+    icon: Icons.jira,
+  },
+  {
+    name: "Linux",
+    description:
+      "Leverage the power of Linux for stable, secure, and efficient server environments.",
+    rating: 5,
+    icon: Icons.linux,
+  },
+  {
+    name: "Apache",
+    description:
+      "Deploy and manage web servers effectively using the Apache HTTP Server.",
+    rating: 4,
+    icon: Icons.apache,
+  },
+  {
+    name: "Python",
+    description:
+      "Utilize Python for versatile programming, from web development to data analysis.",
+    rating: 4,
+    icon: Icons.python,
+  },
+  {
+    name: "PostgreSQL",
+    description:
+      "A powerful, open-source relational database system for robust data management.",
+    rating: 4,
+    icon: Icons.postgresql,
+  },
+  {
+    name: "Streamlit",
+    description:
+      "Build and deploy interactive web applications for data science and machine learning projects with ease.",
+    rating: 4,
+    icon: Icons.streamlit,
+  },
+  {
+    name: "FastAPI",
+    description:
+      "Create high-performance APIs quickly with Python's modern web framework.",
+    rating: 4,
+    icon: Icons.fastapi,
+  },
+  {
+    name: "Docker",
+    description:
+      "Containerize applications for consistent environments across development and production.",
+    rating: 4,
+    icon: Icons.docker,
+  },
+  {
+    name: "Pandas",
+    description:
+      "Powerful data manipulation and analysis library for Python.",
+    rating: 4,
+    icon: Icons.pandas,
+  },
+  {
+    name: "Scikit-learn",
+    description:
+      "A robust machine learning library for Python, offering simple and efficient tools for data mining and analysis.",
+    rating: 4,
+    icon: Icons.scikitlearn,
   },
   {
     name: "Bootstrap",
