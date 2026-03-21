@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { Norican } from "next/font/google";
 import Link from "next/link";
 import { usePathname, useSelectedLayoutSegment } from "next/navigation";
@@ -24,7 +24,7 @@ const norican = Norican({
 });
 
 // Animation variants for the navigation items
-const navItemVariants = {
+const navItemVariants: Variants = {
   hidden: { opacity: 0, y: -20 },
   visible: (i: number) => ({
     opacity: 1,
@@ -32,7 +32,7 @@ const navItemVariants = {
     transition: {
       delay: 0.1 * i,
       duration: 0.5,
-      ease: "easeOut",
+      ease: [0.42, 0, 0.58, 1],
     },
   }),
 };

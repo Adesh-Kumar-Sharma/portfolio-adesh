@@ -1,13 +1,13 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { ReactNode } from "react";
 
 interface AnimatedPageTransitionProps {
   children: ReactNode;
 }
 
-const pageVariants = {
+const pageVariants: Variants = {
   initial: {
     opacity: 0,
     y: 20,
@@ -17,7 +17,7 @@ const pageVariants = {
     y: 0,
     transition: {
       duration: 0.5,
-      ease: "easeInOut",
+      ease: [0.42, 0, 0.58, 1],
     },
   },
   exit: {
@@ -25,7 +25,7 @@ const pageVariants = {
     y: -20,
     transition: {
       duration: 0.3,
-      ease: "easeInOut",
+      ease: [0.42, 0, 0.58, 1],
     },
   },
 };
