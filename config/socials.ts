@@ -16,9 +16,9 @@ export const SocialLinks: SocialInterface[] = [
   },
   {
     name: "LinkedIn",
-    username: "adesh-kumar-sharma-jbp",
+    username: "adeshsharmacs",
     icon: Icons.linkedin,
-    link: "https://www.linkedin.com/in/adesh-kumar-sharma-jbp/",
+    link: "https://www.linkedin.com/in/adeshsharmacs/",
   },
   {
     name: "Gmail",

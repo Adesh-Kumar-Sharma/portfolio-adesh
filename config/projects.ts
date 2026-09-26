@@ -273,7 +273,7 @@ export const Projects: ProjectInterface[] = [
     category: ["Web Dev", "Full Stack", "UI/UX"],
     shortDescription:
       "Portfolio website for Adesh Kumar Sharma built with Next.js and Tailwind CSS.",
-    websiteLink: "https://portfolio-adesh-sharma.vercel.app/",
+    websiteLink: "https://adeshsharma.vercel.app/",
     githubLink: "https://github.com/Adesh-Kumar-Sharma/portfolio-adesh",
     techStack: [
       "Javascript",

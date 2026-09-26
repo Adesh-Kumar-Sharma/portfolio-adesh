@@ -6,7 +6,7 @@ A modern and responsive **Next.js 14 portfolio** to showcase my skills, educatio
 
 ## 🚀 Demo
 
-View the live demo at [https://portfolio-adesh-sharma.vercel.app](https://portfolio-adesh-sharma.vercel.app)
+View the live demo at [https://adeshsharma.vercel.app](https://adeshsharma.vercel.app)
 
 ---
 
@@ -102,6 +102,6 @@ Displays my CV/résumé with a download option.
 
 ---
 
-**Built with ❤️ by Adesh Kumar Sharma -> [GitHub](https://github.com/Adesh-Kumar-Sharma)🔗, [LinkedIn](https://www.linkedin.com/in/adesh-kumar-sharma-jbp)🔗**
+**Built with ❤️ by Adesh Kumar Sharma -> [GitHub](https://github.com/Adesh-Kumar-Sharma)🔗, [LinkedIn](https://www.linkedin.com/in/adeshsharmacs)🔗**
 
 ---

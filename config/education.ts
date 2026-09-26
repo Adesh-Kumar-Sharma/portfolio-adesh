@@ -12,6 +12,18 @@ export interface EducationInterface {
 
 export const educations: EducationInterface[] = [
   {
+    id: "tud",
+    position: "Master of Science",
+    company: "Technological University Dublin",
+    location: "Dublin, Ireland",
+    startDate: new Date("2026-09-14"),
+    endDate: new Date("2027-09-14"),
+    description: [
+      "Pursuing Master of Science in Computer Science (Data Science). ECTS: 90"
+    ],
+    companyUrl: "https://www.tudublin.ie/",
+    logo: "/education/tud.jpeg",
+  },{
     id: "jec",
     position: "Bachelor of Technology",
     company: "Jabalpur Engineering College",

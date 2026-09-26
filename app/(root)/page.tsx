@@ -117,7 +117,7 @@ export default function IndexPage() {
             </AnimatedText>
             <AnimatedText delay={0.8}>
               <Link
-                href={"https://linkedin.com/in/adesh-kumar-sharma-jbp"}
+                href={"https://www.linkedin.com/in/adeshsharmacs"}
                 target="_blank"
                 className={cn(buttonVariants({ size: "lg" }))}
                 aria-label="View Adesh Kumar Sharma's LinkedIn profile"
